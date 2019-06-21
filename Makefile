@@ -1,6 +1,7 @@
 .PHONY: up build push
 
-TAG ?= kscout/caddy:v1
+VERSION ?= v0.1.0
+TAG ?= kscout/caddy:${VERSION}
 
 # build and push
 up: build push
